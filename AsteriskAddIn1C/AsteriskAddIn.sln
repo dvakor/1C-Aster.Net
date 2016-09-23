@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseAddInTemplate", "AsteriskAddIn\EnterpriseAddInTemplate.csproj", "{CE9C9EF3-CAD3-483E-B55A-8802D45A4424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsterNET", "Asterisk.NET\AsterNET.csproj", "{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Travis|Any CPU = Travis|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9C9EF3-CAD3-483E-B55A-8802D45A4424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9C9EF3-CAD3-483E-B55A-8802D45A4424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9C9EF3-CAD3-483E-B55A-8802D45A4424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9C9EF3-CAD3-483E-B55A-8802D45A4424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9C9EF3-CAD3-483E-B55A-8802D45A4424}.Travis|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9C9EF3-CAD3-483E-B55A-8802D45A4424}.Travis|Any CPU.Build.0 = Release|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Travis|Any CPU.ActiveCfg = Travis|Any CPU
+		{BC6E7DBA-C05A-45FE-A2A3-B1637CE16274}.Travis|Any CPU.Build.0 = Travis|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
